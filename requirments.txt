@@ -1,0 +1,21 @@
+Dependencies: 
+1. OpenCV: 
+o Version: 4.x or higher 
+o OpenCV is a powerful computer vision library that facilitates real-time video 
+processing and image manipulation. It is used in the application for capturing 
+webcam input, performing image transformations, overlaying images, and 
+displaying the results. 
+To install OpenCV: pip install opencv-python 
+2. MediaPipe: 
+o Version: 0.8.x or higher 
+o MediaPipe is used for detecting and tracking human body landmarks in real-time. 
+The Pose model from MediaPipe is utilized to extract key body points such as 
+shoulders, hips, and knees, which are then used to position and scale the garment 
+image accordingly. 
+To install MediaPipe: pip install mediapipe 
+3. NumPy: 
+o Version: 1.18.x or higher 
+o NumPy is a fundamental library for numerical computations in Python. It is used 
+for handling arrays and matrices, particularly when performing image 
+transformations like perspective warping and resizing. 
+To install NumPy: pip install numpy
