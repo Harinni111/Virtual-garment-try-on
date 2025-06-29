@@ -1,0 +1,42 @@
+The Virtual Try-On application is an innovative solution that allows users to experience a digital 
+fashion fitting in real-time. By leveraging MediaPipe Pose for body landmark detection and 
+OpenCV for image processing, the application superimposes clothing images, such as shirts or 
+dresses, onto a live webcam feed based on the user's body pose. This application provides an 
+immersive experience for virtual garment fitting, allowing users to visualize how different clothes 
+would fit on their own body without the need for physical trial. 
+The core of the application is built around the powerful MediaPipe Pose model, which detects 
+key body landmarks such as the shoulders, hips, and wrists. Using these landmarks, the system 
+calculates the size and placement of the clothing image, resizing and transforming it to match the 
+user's body dimensions. The result is an accurate, interactive virtual try-on experience that 
+enhances online shopping, fashion design, and virtual fitting rooms. 
+
+
+Objective and Key Features 
+Objective: 
+The primary goal of the Virtual Try-On application is to provide users with a seamless, real-time 
+experience of visualizing how garments will fit on their bodies. The system enables users to see 
+a realistic overlay of clothing items, adjusted for their body size and shape, using just a webcam. 
+Key Features: 
+1. Real-Time Body Landmark Detection: 
+The application uses MediaPipe Pose to detect and track the user's body landmarks in real
+time, ensuring that the garment is correctly aligned with the user's pose. 
+
+2. Clothing Overlay and Resizing: 
+The garment image is resized dynamically based on the user's body proportions. The 
+application ensures that the clothing fits appropriately over the user's body, adjusting both 
+width and height to match their torso and body dimensions. 
+ 
+3. Perspective Transformation: 
+The garment image is transformed using a perspective warp, allowing it to adjust to the 
+user’s pose and movement. This feature ensures that the clothing item appears natural and 
+properly aligned with the user's body, even when they move or change positions. 
+
+4. Transparency Handling: 
+The clothing images used in the system are PNG files with transparent backgrounds, 
+which ensures that only the garment is visible while maintaining a clean and realistic 
+overlay on the user's body. 
+
+5. User-Friendly Interface: 
+The application is designed for simplicity and ease of use, requiring minimal user input. 
+It operates via a webcam, with the application automatically detecting and adjusting the 
+garment to fit the user’s body in real time.
